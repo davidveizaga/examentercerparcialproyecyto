@@ -43,6 +43,7 @@ public class MenuEmpleado {
 
     public static void agregarEmpleado() {
         // Lógica para agregar un empleado
+        ClienteDao.verListaDeEmpleado();
         System.out.println("Funcionalidad de agregar empleado");
     }
 

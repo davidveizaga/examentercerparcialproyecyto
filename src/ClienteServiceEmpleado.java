@@ -26,7 +26,6 @@ public class ClienteServiceEmpleado {
     }
 
     public void agregarCliente(Empleado cliente) {
-        ClienteDao.verListaDeEmpleado();
         clientes.add(cliente);
     }
 
